@@ -116,3 +116,11 @@ Available tools:
    ```
 
 Claude (or another MCP client) will now be able to call `list_collections`, `query_codebase`, and `list_rows` over STDIO, retrieving the same snippets that `query_tool.py` prints to the console.
+
+## Install to Codex
+Add this to config.toml of Codex
+
+
+[mcp_servers.code_rag]
+command = "<your path>/rag_mcp_example/.venv/Scripts/python.exe"
+args = ["<your path>/rag_mcp_example/chromadb_mcp_server.py"]
