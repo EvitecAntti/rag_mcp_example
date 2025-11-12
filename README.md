@@ -122,5 +122,6 @@ Add this to config.toml of Codex
 
 
 [mcp_servers.code_rag]
+
 command = "<your path>/rag_mcp_example/.venv/Scripts/python.exe"
 args = ["<your path>/rag_mcp_example/chromadb_mcp_server.py"]
